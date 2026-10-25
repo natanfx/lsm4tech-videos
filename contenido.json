@@ -32,6 +32,11 @@
           "nombre": "LED",
           "video": "electronica_led.mp4",
           "version": 1
+        },
+        {
+          "nombre": "Transistor",
+          "video": "abecedario_b.mp4",
+          "version": 1
         }
       ]
     },
@@ -63,7 +68,7 @@
     },
     {
       "nombre": "Números",
-      "descripcion": "Cantidades",
+      "descripcion": "Del uno al diez",
       "icono": "numeros",
       "colores": [
         "#0F766E",
