@@ -1,0 +1,213 @@
+{
+  "formato": 1,
+  "actualizado": "2026-10-24",
+  "categorias": [
+    {
+      "nombre": "Electrónica",
+      "descripcion": "Vocabulario técnico",
+      "icono": "chip",
+      "colores": [
+        "#1E3A8A",
+        "#4338CA",
+        "#7C3AED"
+      ],
+      "destacada": true,
+      "terminos": [
+        {
+          "nombre": "Resistencia",
+          "video": "electronica_resistencia.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Capacitor",
+          "video": "electronica_capacitor.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Diodo",
+          "video": "electronica_diodo.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "LED",
+          "video": "electronica_led.mp4",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Abecedario",
+      "descripcion": "Deletreo manual",
+      "icono": "abecedario",
+      "colores": [
+        "#C2410C",
+        "#BE123C"
+      ],
+      "terminos": [
+        {
+          "nombre": "A",
+          "video": "abecedario_a.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "B",
+          "video": "abecedario_b.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "C",
+          "video": "abecedario_c.mp4",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Números",
+      "descripcion": "Cantidades",
+      "icono": "numeros",
+      "colores": [
+        "#0F766E",
+        "#0E7490"
+      ],
+      "terminos": [
+        {
+          "nombre": "Uno",
+          "video": "numeros_uno.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Dos",
+          "video": "numeros_dos.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Tres",
+          "video": "numeros_tres.mp4",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Días de la semana",
+      "descripcion": "Lunes a domingo",
+      "icono": "calendario",
+      "colores": [
+        "#6D28D9",
+        "#A21CAF"
+      ],
+      "terminos": [
+        {
+          "nombre": "Lunes",
+          "video": "dias_lunes.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Martes",
+          "video": "dias_martes.mp4",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Preguntas",
+      "descripcion": "Qué, quién, dónde",
+      "icono": "pregunta",
+      "colores": [
+        "#B45309",
+        "#C2410C"
+      ],
+      "terminos": [
+        {
+          "nombre": "¿Qué?",
+          "video": "preguntas_que.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "¿Quién?",
+          "video": "preguntas_quien.mp4",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Saludos",
+      "descripcion": "Hola, gracias",
+      "icono": "mano",
+      "colores": [
+        "#BE185D",
+        "#9D174D"
+      ],
+      "terminos": [
+        {
+          "nombre": "Hola",
+          "video": "saludos_hola.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Gracias",
+          "video": "saludos_gracias.mp4",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Colores",
+      "descripcion": "Rojo, azul, verde",
+      "icono": "paleta",
+      "colores": [
+        "#15803D",
+        "#0F766E"
+      ],
+      "terminos": [
+        {
+          "nombre": "Rojo",
+          "video": "colores_rojo.mp4",
+          "version": 1
+        },
+        {
+          "nombre": "Azul",
+          "video": "colores_azul.mp4",
+          "version": 1
+        }
+      ]
+    }
+  ],
+  "acerca": {
+    "textoProyecto": "LSM4Tech forma parte del proyecto de investigación SIP 20253550 del Instituto Politécnico Nacional, desarrollado en el CECyT 18 \"Zacatecas\". Su propósito es facilitar a docentes y a la comunidad educativa del área tecnológica el aprendizaje de vocabulario en Lengua de Señas Mexicana, para favorecer la inclusión de estudiantes sordos en la educación técnica.",
+    "avisoSenas": "Las señas pueden variar entre regiones y comunidades. El vocabulario técnico se documentó con la participación de personas sordas. Esta aplicación es un apoyo para la consulta y no sustituye a un intérprete profesional ni la formación completa en LSM.",
+    "creditos": [
+      {
+        "titulo": "Dirección del proyecto",
+        "nombres": [
+          "Jonatan Belmontes Zacarías"
+        ]
+      },
+      {
+        "titulo": "Docentes investigadores",
+        "nombres": [
+          "Jesús Eloy Castillo Herrera",
+          "Aglae Berenice Campos Cortés",
+          "Carlos Alan Femat Quintero",
+          "Claudia Vianney Martínez López"
+        ]
+      },
+      {
+        "titulo": "Colaboración de la comunidad sorda",
+        "nombres": []
+      },
+      {
+        "titulo": "Estudiantes participantes",
+        "nombres": [
+          "Ana Paola Acuña Ramos",
+          "Benito Javier Calzada Cristerna",
+          "Naomi Gallegos",
+          "Adán Gutiérrez Chávez",
+          "Josué Lander Mendoza Hernández",
+          "Lizbeth Aurora Orenday González",
+          "Lehi Alejandro Román Pérez",
+          "Alberto Solís Del Río"
+        ]
+      }
+    ]
+  }
+}
