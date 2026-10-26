@@ -37,6 +37,11 @@
           "nombre": "Transistor",
           "video": "abecedario_b.mp4",
           "version": 1
+        },
+        {
+          "nombre": "Voltaje",
+          "video": "electronica_voltaje.mp4",
+          "version": 1
         }
       ]
     },
