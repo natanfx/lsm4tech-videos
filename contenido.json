@@ -1,183 +1,451 @@
 {
-  "formato": 1,
-  "actualizado": "2026-10-24",
-  "categorias": [
+  "formato": 2,
+  "actualizado": "2026-10-26",
+  "bloques": [
     {
-      "nombre": "Electrónica",
-      "descripcion": "Vocabulario técnico",
-      "icono": "chip",
+      "nombre": "Vocabulario técnico",
+      "descripcion": "Sistemas Digitales",
+      "icono": "computadora",
       "colores": [
         "#1E3A8A",
         "#4338CA",
         "#7C3AED"
       ],
-      "destacada": true,
-      "terminos": [
+      "circuito": true,
+      "categorias": [
         {
-          "nombre": "Resistencia",
-          "video": "electronica_resistencia.mp4",
-          "version": 2
+          "nombre": "Electrónica",
+          "descripcion": "Fundamentos y componentes",
+          "icono": "rayo",
+          "colores": [
+            "#1E3A8A",
+            "#4338CA",
+            "#7C3AED"
+          ],
+          "terminos": [
+            {
+              "nombre": "Resistencia",
+              "video": "electronica_resistencia.mp4",
+              "version": 2
+            },
+            {
+              "nombre": "Capacitor",
+              "video": "electronica_capacitor.mp4",
+              "version": 2
+            },
+            {
+              "nombre": "Diodo",
+              "video": "electronica_diodo.mp4",
+              "version": 2
+            },
+            {
+              "nombre": "Transistor",
+              "video": "electronica_transistor.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Inductor",
+              "video": "electronica_inductor.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Voltaje",
+              "video": "electronica_voltaje.mp4",
+              "version": 2
+            },
+            {
+              "nombre": "Corriente eléctrica",
+              "video": "electronica_corriente_electrica.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Potencia eléctrica",
+              "video": "electronica_potencia_electrica.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Ley de Ohm",
+              "video": "electronica_ley_de_ohm.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Circuito en serie",
+              "video": "electronica_circuito_serie.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Circuito en paralelo",
+              "video": "electronica_circuito_paralelo.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Fuente de alimentación",
+              "video": "electronica_fuente_de_alimentacion.mp4",
+              "version": 1
+            }
+          ]
         },
         {
-          "nombre": "Capacitor",
-          "video": "electronica_capacitor.mp4",
-          "version": 1
+          "nombre": "Medición",
+          "descripcion": "Instrumentos de laboratorio",
+          "icono": "medicion",
+          "colores": [
+            "#0F766E",
+            "#0369A1"
+          ],
+          "terminos": [
+            {
+              "nombre": "Medición",
+              "video": "medicion_medicion.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Calibración",
+              "video": "medicion_calibracion.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Multímetro",
+              "video": "medicion_multimetro.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Osciloscopio",
+              "video": "medicion_osciloscopio.mp4",
+              "version": 1
+            }
+          ]
         },
         {
-          "nombre": "Diodo",
-          "video": "electronica_diodo.mp4",
-          "version": 1
+          "nombre": "Electrónica digital",
+          "descripcion": "Lógica, señales y memoria",
+          "icono": "chip",
+          "colores": [
+            "#5B21B6",
+            "#A21CAF"
+          ],
+          "terminos": [
+            {
+              "nombre": "Álgebra booleana",
+              "video": "digital_algebra_booleana.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "AND",
+              "video": "digital_and.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "OR",
+              "video": "digital_or.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "NOT",
+              "video": "digital_not.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "XOR",
+              "video": "digital_xor.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Tabla de verdad",
+              "video": "digital_tabla_de_verdad.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Simplificación lógica",
+              "video": "digital_simplificacion_logica.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Flip-flop",
+              "video": "digital_flip_flop.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Contador",
+              "video": "digital_contador.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Registro",
+              "video": "digital_registro.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Máquina de estados",
+              "video": "digital_maquina_de_estados.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Señal analógica",
+              "video": "digital_senal_analogica.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Señal digital",
+              "video": "digital_senal_digital.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Señal de reloj",
+              "video": "digital_senal_de_reloj.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Sincronización",
+              "video": "digital_sincronizacion.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Memoria",
+              "video": "digital_memoria.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "RAM",
+              "video": "digital_ram.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "EEPROM",
+              "video": "digital_eeprom.mp4",
+              "version": 1
+            }
+          ]
         },
         {
-          "nombre": "LED",
-          "video": "electronica_led.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "Transistor",
-          "video": "abecedario_b.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "Voltaje",
-          "video": "electronica_voltaje.mp4",
-          "version": 1
+          "nombre": "Programación",
+          "descripcion": "Conceptos de software",
+          "icono": "codigo",
+          "colores": [
+            "#9A3412",
+            "#BE123C"
+          ],
+          "terminos": [
+            {
+              "nombre": "Variable",
+              "video": "programacion_variable.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Constante",
+              "video": "programacion_constante.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Tipo de dato",
+              "video": "programacion_tipo_de_dato.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Condicional",
+              "video": "programacion_condicional.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Ciclo (loop)",
+              "video": "programacion_ciclo_loop.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Función",
+              "video": "programacion_funcion.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Clase",
+              "video": "programacion_clase.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Objeto",
+              "video": "programacion_objeto.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Método",
+              "video": "programacion_metodo.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Herencia",
+              "video": "programacion_herencia.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Encapsulamiento",
+              "video": "programacion_encapsulamiento.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Interfaz gráfica",
+              "video": "programacion_interfaz_grafica.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Compilador",
+              "video": "programacion_compilador.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Depuración (debug)",
+              "video": "programacion_depuracion_debug.mp4",
+              "version": 1
+            }
+          ]
         }
       ]
     },
     {
-      "nombre": "Abecedario",
-      "descripcion": "Deletreo manual",
-      "icono": "abecedario",
-      "colores": [
-        "#C2410C",
-        "#BE123C"
-      ],
-      "terminos": [
-        {
-          "nombre": "A",
-          "video": "abecedario_a.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "B",
-          "video": "abecedario_b.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "C",
-          "video": "abecedario_c.mp4",
-          "version": 1
-        }
-      ]
-    },
-    {
-      "nombre": "Números",
-      "descripcion": "Del uno al diez",
-      "icono": "numeros",
-      "colores": [
-        "#0F766E",
-        "#0E7490"
-      ],
-      "terminos": [
-        {
-          "nombre": "Uno",
-          "video": "numeros_uno.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "Dos",
-          "video": "numeros_dos.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "Tres",
-          "video": "numeros_tres.mp4",
-          "version": 1
-        }
-      ]
-    },
-    {
-      "nombre": "Días de la semana",
-      "descripcion": "Lunes a domingo",
-      "icono": "calendario",
-      "colores": [
-        "#6D28D9",
-        "#A21CAF"
-      ],
-      "terminos": [
-        {
-          "nombre": "Lunes",
-          "video": "dias_lunes.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "Martes",
-          "video": "dias_martes.mp4",
-          "version": 1
-        }
-      ]
-    },
-    {
-      "nombre": "Preguntas",
-      "descripcion": "Qué, quién, dónde",
-      "icono": "pregunta",
-      "colores": [
-        "#B45309",
-        "#C2410C"
-      ],
-      "terminos": [
-        {
-          "nombre": "¿Qué?",
-          "video": "preguntas_que.mp4",
-          "version": 1
-        },
-        {
-          "nombre": "¿Quién?",
-          "video": "preguntas_quien.mp4",
-          "version": 1
-        }
-      ]
-    },
-    {
-      "nombre": "Saludos",
-      "descripcion": "Hola, gracias",
+      "nombre": "Señas básicas",
+      "descripcion": "Comunicación diaria",
       "icono": "mano",
       "colores": [
-        "#BE185D",
-        "#9D174D"
+        "#B45309",
+        "#C2410C",
+        "#BE185D"
       ],
-      "terminos": [
+      "circuito": false,
+      "categorias": [
         {
-          "nombre": "Hola",
-          "video": "saludos_hola.mp4",
-          "version": 1
+          "nombre": "Abecedario",
+          "descripcion": "Deletreo manual",
+          "icono": "abecedario",
+          "colores": [
+            "#C2410C",
+            "#BE123C"
+          ],
+          "terminos": [
+            {
+              "nombre": "A",
+              "video": "abecedario_a.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "B",
+              "video": "abecedario_b.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "C",
+              "video": "abecedario_c.mp4",
+              "version": 1
+            }
+          ]
         },
         {
-          "nombre": "Gracias",
-          "video": "saludos_gracias.mp4",
-          "version": 1
-        }
-      ]
-    },
-    {
-      "nombre": "Colores",
-      "descripcion": "Rojo, azul, verde",
-      "icono": "paleta",
-      "colores": [
-        "#15803D",
-        "#0F766E"
-      ],
-      "terminos": [
-        {
-          "nombre": "Rojo",
-          "video": "colores_rojo.mp4",
-          "version": 1
+          "nombre": "Números",
+          "descripcion": "Del uno al diez",
+          "icono": "numeros",
+          "colores": [
+            "#0F766E",
+            "#0E7490"
+          ],
+          "terminos": [
+            {
+              "nombre": "Uno",
+              "video": "numeros_uno.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Dos",
+              "video": "numeros_dos.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Tres",
+              "video": "numeros_tres.mp4",
+              "version": 1
+            }
+          ]
         },
         {
-          "nombre": "Azul",
-          "video": "colores_azul.mp4",
-          "version": 1
+          "nombre": "Días de la semana",
+          "descripcion": "Lunes a domingo",
+          "icono": "calendario",
+          "colores": [
+            "#6D28D9",
+            "#A21CAF"
+          ],
+          "terminos": [
+            {
+              "nombre": "Lunes",
+              "video": "dias_lunes.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Martes",
+              "video": "dias_martes.mp4",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "nombre": "Preguntas",
+          "descripcion": "Qué, quién, dónde",
+          "icono": "pregunta",
+          "colores": [
+            "#B45309",
+            "#C2410C"
+          ],
+          "terminos": [
+            {
+              "nombre": "¿Qué?",
+              "video": "preguntas_que.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "¿Quién?",
+              "video": "preguntas_quien.mp4",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "nombre": "Saludos",
+          "descripcion": "Hola, gracias",
+          "icono": "mano",
+          "colores": [
+            "#BE185D",
+            "#9D174D"
+          ],
+          "terminos": [
+            {
+              "nombre": "Hola",
+              "video": "saludos_hola.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Gracias",
+              "video": "saludos_gracias.mp4",
+              "version": 1
+            }
+          ]
+        },
+        {
+          "nombre": "Colores",
+          "descripcion": "Rojo, azul, verde",
+          "icono": "paleta",
+          "colores": [
+            "#15803D",
+            "#0F766E"
+          ],
+          "terminos": [
+            {
+              "nombre": "Rojo",
+              "video": "colores_rojo.mp4",
+              "version": 1
+            },
+            {
+              "nombre": "Azul",
+              "video": "colores_azul.mp4",
+              "version": 1
+            }
+          ]
         }
       ]
     }
