@@ -451,40 +451,20 @@
     }
   ],
   "acerca": {
-    "textoProyecto": "LSM4Tech forma parte del proyecto de investigación SIP 20253550 del Instituto Politécnico Nacional, desarrollado en el CECyT 18 \"Zacatecas\". Su propósito es facilitar a docentes y a la comunidad educativa del área tecnológica el aprendizaje de vocabulario en Lengua de Señas Mexicana, para favorecer la inclusión de estudiantes sordos en la educación técnica.",
+    "textoProyecto": "LSM4Tech forma parte del proyecto de investigación del Instituto Politécnico Nacional, desarrollado en el CECyT 18 \"Zacatecas\". Su propósito es facilitar a docentes y a la comunidad educativa del área tecnológica el aprendizaje de vocabulario en Lengua de Señas Mexicana, para favorecer la inclusión de estudiantes sordos en la educación técnica.",
     "avisoSenas": "Las señas pueden variar entre regiones y comunidades. El vocabulario técnico se documentó con la participación de personas sordas. Esta aplicación es un apoyo para la consulta y no sustituye a un intérprete profesional ni la formación completa en LSM.",
     "creditos": [
       {
-        "titulo": "Dirección del proyecto",
-        "nombres": [
-          "Jonatan Belmontes Zacarías"
-        ]
-      },
-      {
         "titulo": "Docentes investigadores",
         "nombres": [
+          "Jonatan Belmontes Zacarías",
           "Jesús Eloy Castillo Herrera",
-          "Aglae Berenice Campos Cortés",
-          "Carlos Alan Femat Quintero",
-          "Claudia Vianney Martínez López"
+          "Carlos Alan Femat Quintero"
         ]
       },
       {
         "titulo": "Colaboración de la comunidad sorda",
         "nombres": []
-      },
-      {
-        "titulo": "Estudiantes participantes",
-        "nombres": [
-          "Ana Paola Acuña Ramos",
-          "Benito Javier Calzada Cristerna",
-          "Naomi Gallegos",
-          "Adán Gutiérrez Chávez",
-          "Josué Lander Mendoza Hernández",
-          "Lizbeth Aurora Orenday González",
-          "Lehi Alejandro Román Pérez",
-          "Alberto Solís Del Río"
-        ]
       }
     ]
   }
